@@ -1,0 +1,30 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Virtual environments
+.venv/
+env/
+venv/
+# other common names
+lp_venv/
+# recommended to ignore exact version locks
+.python-version
+
+# IDE-specific files
+# for PyCharm
+.idea/
+# for VS Code 
+.vscode/
+# for Vim
+*.swp
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Sensitive or log files
+# environment variables
+.env
+*.log
